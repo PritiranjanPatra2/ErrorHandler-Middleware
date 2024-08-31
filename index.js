@@ -8,9 +8,8 @@ app.post('/user',validate,(req,res)=>{
     console.log(req.body); 
     console.log("user created");
     
-    res.send('user created');
+    res.send(`user created`);
 
-    // console.log("user created");
      
 })
 
